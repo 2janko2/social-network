@@ -1,13 +1,17 @@
 .header {
     grid-area: h;
-    background-color: green;
+    background-color: #7dd87d;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .logo {
-    width: 300px;
+    width: 70px;
 }
 
 .logo img {
-    height: 60px;
+    height: auto;
 }
 .loginBlock {
     float: right;

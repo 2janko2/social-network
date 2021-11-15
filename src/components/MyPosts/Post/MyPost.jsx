@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react';
 import { Field, reduxForm } from 'redux-form';
 import { Textarea } from '../../commons/FormsControls/FormsControls';
-import Message from '../../Dialogs/Message/Message';
 import { maxLengthCreator, required } from '../../../utils/validator';
 import classes from './MyPost.module.css';
 import Post from './Post/Post';
